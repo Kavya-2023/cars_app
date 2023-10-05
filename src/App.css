@@ -1,38 +1,116 @@
 .App {
   text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-container{
+  border-radius: 1rem;
+  width:20rem;
+  padding-top: .2rem;
+  height:2rem;
+  margin-right: 2rem;
+  background-color: white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-container input{
+  outline:none;
+  border:none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bottom-container{
+  background-color: #E1F8DC;
+  width:95%;
+  height:3rem;
+  border-radius: 1rem;
+  margin-left:3rem;
+  margin-top: .2rem;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+.header-container{
+  background-color: #E1F8DC;
+  width:95%;
+  height:4rem;
+  border-radius: 1rem;
+  margin-left:3rem;
+  margin-top: .2rem;
+}
+.header-container p{
+  margin-left: 1rem;
+  margin-top: .2rem;
+  color:#033f63;
+}
+.big-container{
+  background: #CAF1DE;
+  text-align: center;
+  padding-top: .1rem;
+}
+*{
+  list-style-type: none;
+}
+.list-container{
+  justify-content: center;
+}
+.card-container{
+  background-color: #E1F8DC;
+  border-radius: 1rem;
+}
+.details-container{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 1rem;
+  font-weight: 500;
 }
-
-.App-link {
-  color: #61dafb;
+.inner-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.img{
+  border-radius: 1rem;
+}
+.footer{
+  margin-top: 1rem;
+}
+.likes-container button{
+   margin-right: 1rem;
+   border: none;
+   outline: none;
+   font-weight: bold;
+}
+.love-icon{
+  border-radius: .2rem;
+  background-color: #CAF1DE;
+}
+.year{
+  border: 2px dashed cyan;
+  padding:.2rem  .5rem;
+  border-radius: 1rem;
+  font-size: .9rem;
+}
+.f-1{
+  color: cyan;
+}
+.features{
+  padding: 0 5%;
+  font-size: .8rem;
+}
+.f-btn{
+  border-radius: .5rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  margin-right: .5rem;
+  border:1px solid gray;
+  outline: none;
+  box-shadow: 1px solid gainsboro;
+}
+.bottom-container{
+  padding:  .5rem 1rem .5rem 1rem;
+}
+.total-container{
+  background: #CAF1DE;
+}
+.link{
+  text-decoration: none;
+  color:#033f63;
 }
